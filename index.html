@@ -4,8 +4,6 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -14,6 +12,9 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+
+        <div class="post-excerpt">{{ post.excerpt }}</div>
+        <div class="post-more"><a  href="{{ post.url | prepend: site.baseurl }}">...</a></div>
       </li>
     {% endfor %}
   </ul>

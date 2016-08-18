@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 黑猫的博客
+title: 黑猫笔记
 email: bertonzh@gmail.com
 description: > #记录代码和生活
 
@@ -15,3 +15,5 @@ github_username:  meowtec
 
 # Build settings
 markdown: kramdown
+
+excerpt_separator: <!--more-->
