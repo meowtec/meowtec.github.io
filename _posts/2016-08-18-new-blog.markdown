@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "新博客"
+date:   2016-08-18 14:28:00 +0800
+categories: blog
+---
+之前的博客在 DigitalOcean 上，忘了续费，导致 VPS 被删了。
+
+所以就搬到 Github 上了。
