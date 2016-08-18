@@ -8,10 +8,9 @@
 # Site settings
 title: 黑猫的博客
 email: bertonzh@gmail.com
-description: > 记录代码和生活
-baseurl: "" # the subpath of your site, e.g. /blog
+description: > #记录代码和生活
+
 url: "http://cateyes.blue" # the base hostname & protocol for your site
-twitter_username: meowtec
 github_username:  meowtec
 
 # Build settings
