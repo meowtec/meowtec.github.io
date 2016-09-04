@@ -11,11 +11,9 @@ categories: blog
 ### ttyrec/ttyplay
 ttyrec 是 Linux 保存终端输出流的一个工具，使用它，就可以把终端录制下来。
 
-<div
-  class="player-container"
-  data-termplayer-source="/static/ttyrecs/tty-intro.rec"
->
-</div>
+```tty
+src: /static/ttyrecs/tty-intro.rec
+```
 
 Mac 下可以使用 homebrew 安装。
 
