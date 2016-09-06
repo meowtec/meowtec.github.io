@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "在网页中播放你的命令行记录"
+title:  "在网页中播放你的终端记录"
 date:   2016-9-1 11:18:00 +0800
 categories: blog
 ---
@@ -36,11 +36,11 @@ ttyplay tty-record.rec
 ### ttyplayer.js
 
 我基于 xtrem.js 开发了一个网页端的 [ttyplayer.js](https://meowtec.github.io/ttyplayer.js/)，支持暂停和播放速度控制，未来还可能支持播放进度切换。
-使用 ttyplayer，读者在观看的时候还可以随时把命令复制出来，非常方便。
+使用 ttyplayer，在观看的时候还可以随时把文字复制出来，非常方便。
 
 项目地址：[https://github.com/meowtec/ttyplayer.js](https://github.com/meowtec/ttyplayer.js)
 
-#### ttyplayer 基本使用
+#### ttyplayer 使用
 把 dist 目录下的 ttyplayer.min.css 和 ttyplayer.min.js 两个文件引入你的项目，然后初始化播放器：
 
 ``` javascript
