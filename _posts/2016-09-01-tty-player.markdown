@@ -36,6 +36,23 @@ ttyplay tty-record.rec
 ### ttyplayer.js
 
 我基于 xtrem.js 开发了一个网页端的 [ttyplayer.js](https://meowtec.github.io/ttyplayer.js/)，支持暂停和播放速度控制，未来还可能支持播放进度切换。
-使用 ttyplayer，读者在观看的时候还可以随时把命令复制出来，很方便。
+使用 ttyplayer，读者在观看的时候还可以随时把命令复制出来，非常方便。
 
-想知道使用方式，看这个网页的源码，或者[项目源码](https://github.com/meowtec/ttyplayer.js)就 OK.
+项目地址：[https://github.com/meowtec/ttyplayer.js](https://github.com/meowtec/ttyplayer.js)
+
+#### ttyplayer 基本使用
+把 dist 目录下的 ttyplayer.min.css 和 ttyplayer.min.js 两个文件引入你的项目，然后初始化播放器：
+
+``` javascript
+new TTYPlayer({
+  parent: document.getElement('player-parent')
+}).load('/your.rec')
+```
+
+如果你使用 jekyll 或者其他使用 markdown 写文章的平台，可以再引入 ttyplayer.autoload.js 这个文件，通过下面的语法加载播放器：
+
+<pre>
+<code>&#96;&#96;&#96;tty
+src: /static/ttyrecs/tty-intro.rec
+&#96;&#96;&#96;</code>
+</pre>
